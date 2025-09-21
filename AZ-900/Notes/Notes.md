@@ -11,5 +11,5 @@ Cloud Service Types
 
 What is Azure?
 - Microsoft's collection of more than 100 cloud services. Allows you to do everything from running existing apps on VMs to exploring intelligent bots and mixed reality.
-
-- <img width="604" height="479" alt="image" src="https://github.com/user-attachments/assets/69e1ea0e-6451-433c-89a3-f8afbff4b87f" />
+  
+  <img width="604" height="479" alt="image" src="https://github.com/user-attachments/assets/69e1ea0e-6451-433c-89a3-f8afbff4b87f" />

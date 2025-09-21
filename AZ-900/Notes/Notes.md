@@ -34,3 +34,13 @@
 ### **Azure Management Infra**
 - Resource: Anything you creat, provision, deploy, etc. in Azure. This includes VMs, virtual networks, databases, cognitive services, and more.
 - Resource Group: A grouping of resources. Every resource has to be in a group, and can only be in one group at a time. Actions taken on a group (ex. permissions adjustments) apply to app resources in that group.
+- Azure Subscriptions: A unit of management, billing, and scale. These allow you to organize your resource groups and facilitate billing.
+
+<img width="654" height="269" alt="image" src="https://github.com/user-attachments/assets/6e768e61-1093-407e-b242-51897137e2a4" />
+
+In a multi-subscription account, the subscriptions can be used to configure different billing models and apply different access-management policies. **Billing boundaries** are a subscription type that allows Azure to generate separate illing reports and invoices for each subscription so you can organize and manage costs. **Access control boundaries** are types that allows you to reflect different organizational structures (ex. you can manage and control access to the resources that users in a specific business department provision.)
+- Management Groups: A collection of subscriptions that can have governance conditions applied to it.
+
+In summary: Resources > Resource Groups > Subscriptions > Management Groups
+
+<img width="608" height="376" alt="image" src="https://github.com/user-attachments/assets/bd5f4956-b548-48ec-8302-40ba18c08e0c" />

@@ -30,3 +30,7 @@
 - Sovereign Regions: Instances of Azure that are physical and logical network-isolated for compliance or legal purposes (ex. US DoD Central, US Gov Virginia).
 
 <img width="1012" height="560" alt="image" src="https://github.com/user-attachments/assets/64fb25b6-b8ec-4b6c-8fd4-c153a157314c" />
+
+### **Azure Management Infra**
+- Resource: Anything you creat, provision, deploy, etc. in Azure. This includes VMs, virtual networks, databases, cognitive services, and more.
+- Resource Group: A grouping of resources. Every resource has to be in a group, and can only be in one group at a time. Actions taken on a group (ex. permissions adjustments) apply to app resources in that group.

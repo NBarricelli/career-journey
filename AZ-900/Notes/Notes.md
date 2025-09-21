@@ -16,6 +16,5 @@
 
 **Interacting with Azure**
 - Web portal: portal.azure.com
-- CLI: Started within the web portal. PowerShell and BASH can be used to interact with Azure.
-        Note: when using PowerShell, the command *az interactive* can be used to make the CLI          more IDE-esque with autocompetion, command descriptions, and examples.
+- CLI: Started within the web portal. PowerShell and BASH can be used to interact with Azure. *Note: when using PowerShell, the command __az interactive__ can be used to make the CLI more IDE-esque with autocompetion, command descriptions, and examples.*
   

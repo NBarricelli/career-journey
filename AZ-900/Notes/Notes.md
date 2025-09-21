@@ -22,7 +22,7 @@
 - Web portal: portal.azure.com
 - CLI: Started within the web portal. PowerShell and BASH can be used to interact with Azure. *Note: when using PowerShell, the command __az interactive__ can be used to make the CLI more IDE-esque with autocompetion, command descriptions, and examples.*
 
-### **Azure Physical Infra*
+### **Azure Physical Infra**
 - Datacenters: Facilities with dedicated power, cooling, and networking infra that run Azure. Located around the world and grouped into Azure Regions / Availability Zones to keep high resiliency and reliability
 - Availability Zones: Physically separate datacenters within a region, each with their own power, cooling, and networking. Prevents a resource/application from going down in a region if a particular datacenter encounters a disaster.
 - Regions: Geographical area on the planet that contains at least one, but generally multiple datacenters that are network together with low-latency. Used by Azure to ensure workloads are balanced.

@@ -11,6 +11,11 @@
 - Platform as a Service (PaaS): Middle ground. Cloud provider maintains hardware, connectivity, physical security, OS maintenance, middleware, and BI services. User maintains data config and sometimes applications and directory infra.
 - Software as a Service (SaaS): Most complete, essentially renting a fully developed app. Cloud provider maintains everything except data, accounts and identities, and sometimes identity infra.
 
+### **Shared Responsibility Model**
+
+<img width="853" height="503" alt="image" src="https://github.com/user-attachments/assets/fb56780a-8008-4d7e-9d00-0a59c776aaf6" />
+
+
 # **Azure**
 
 ### **What is Azure?**

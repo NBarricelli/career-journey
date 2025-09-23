@@ -1,4 +1,6 @@
-# **Cloud Services**
+# **AZ-900 Notes**
+
+## **Cloud Services**
 
 ### **Definition**
 - The delivery of convenient, on-demand computing services over the internet to a shared pool of configurable computing resources (VMs, apps, etc.) that can be quickly provisioned with minimal management effort.
@@ -18,8 +20,20 @@
 
 <img width="853" height="503" alt="image" src="https://github.com/user-attachments/assets/fb56780a-8008-4d7e-9d00-0a59c776aaf6" />
 
+### **Cloud Models**
+- Public Cloud: Built, controlled, and maintained by a third-party CSP (ex. Microsoft, Amazon, etc.) General public availability. Anyone can purchase cloud services to access and use. Cost- effective.
+- Private Cloud: A cloud used by a single entity/organization in an on-site datacenter or a dedicated offsite datacenter. Much greater control for the organization, but much more responsibility and cost.
+- Hybrid Cloud: An environment that uses both public and private clouds in an inter-connected system. Allows for flexible security (ex. choosing which services to keep on public or private) and elasticity (ex. allowing a private cloud to surge for increased demand by deploying public cloud resources.)
 
-# **Azure**
+### **Cloud Concept Definitions**
+- Economies of Scale: The ability to do things more efficiently / lower cost-per-unit when operating at a larger scale
+- Capital Expenditure (CapEx): Money spent on physical infra up front (ex. Physical On-Prem Datacenters)
+- Operation Expenditure (OpEx): Money spent on services or products now and being billed as you go (ex. Public Cloud Consuption)
+- Consumption-based Model: Paying for you what use (per-minute, per-GB, per-execution, etc.)
+- Fixed-price Model: Provisioning resources and paying for them whether you use them or not
+- Serverless Architecture: A consumption-based model where the CSP dynamically manages the allocation and provisioning of servers. Resources are stateless, servers are ephemeral, and often capable of being triggered (ex. Azure Logic App, Azure Functions, Azure Event Grid.)
+
+## **Azure**
 
 ### **What is Azure?**
 - Microsoft's collection of more than 100 cloud services. Allows you to do everything from running existing apps on VMs to exploring intelligent bots and mixed reality.

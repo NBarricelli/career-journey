@@ -1,5 +1,8 @@
 # **Cloud Services**
 
+### **Definition**
+- The delivery of convenient, on-demand computing services over the internet to a shared pool of configurable computing resources (VMs, apps, etc.) that can be quickly provisioned with minimal management effort.
+
 ### **Benefits of using cloud services**
 - High availability: Azure SLAs guarantee an extremely high service uptime, >99.9%.
 - High scalability: Quickly able to adjust resources to meet demand. Cloud is a consumption-based model and you pay for what you need. Vertical Scaling (adjusting capabilities / power of resources) and Horizontal Scaling (adjusting number of resouces) are easy.

@@ -12,3 +12,7 @@ After the network configuration was complete, Proxmox VE began installing. Once 
 
 <img width="3820" height="2020" alt="image" src="https://github.com/user-attachments/assets/938a0fbc-f1a4-40b0-b8b1-f32c209c1871" />
 
+### **Updating & Introduction to Proxmox VE Helper Scripts**
+To introduce myself to Proxmox VE Helper Scripts and make sure my Proxmox is up to date, I ran the [PVE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) script. 
+
+<img width="2202" height="777" alt="image" src="https://github.com/user-attachments/assets/55e90f8b-a6b1-4d17-a486-04ba56b344cc" />

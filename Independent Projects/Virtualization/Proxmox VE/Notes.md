@@ -24,3 +24,8 @@ I also ran the [File Browser](https://community-scripts.github.io/ProxmoxVE/scri
 ...and then ran the [FileBrowser Quantum](https://community-scripts.github.io/ProxmoxVE/scripts?id=filebrowser-quantum&category=Files+%26+Downloads) addon installer instead.
 
 <img width="724" height="400" alt="image" src="https://github.com/user-attachments/assets/21adbff7-7dd5-4cf7-9d1b-9c96099180d2" />
+
+### **Adding Another Drive**
+I had an unused M.2 SSD to USB 3.2 enclosure laying around, so I decided to use that and add another 512GB to my available storage. I realize this is sub-optimal due to limitations with running VMs off of a USB device, but unfortunately I only have one onboard SSD slot on this computer.
+
+I plugged the enclosure into the desktop and ran `lsblk` in the shell to get a list of drives connected to the desktop. After identifying the new drive, I saw it had a 4 existing partitions. I used gdisk to remove those by running `gdisk /dev/sda`, then using `d` to delete the partitions and `w` to write the changes. I now have an unpartitioned drive. At this point, I ran `pvcreate /dev/sda` to initialize the drive as a physical volume.

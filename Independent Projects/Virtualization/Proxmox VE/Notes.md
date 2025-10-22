@@ -16,3 +16,7 @@ After the network configuration was complete, Proxmox VE began installing. Once 
 To introduce myself to Proxmox VE Helper Scripts and make sure my Proxmox is up to date, I ran the [PVE Post Install](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) script. 
 
 <img width="2202" height="777" alt="image" src="https://github.com/user-attachments/assets/55e90f8b-a6b1-4d17-a486-04ba56b344cc" />
+
+I also ran the [File Browser](https://community-scripts.github.io/ProxmoxVE/scripts?id=filebrowser&category=Files+%26+Downloads) addon installer to make navigating through my file directories easier.
+
+<img width="1430" height="790" alt="image" src="https://github.com/user-attachments/assets/d69bbcc3-2168-478c-9081-528e91325d95" />

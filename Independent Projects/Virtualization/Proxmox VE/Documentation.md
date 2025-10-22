@@ -31,3 +31,17 @@ I had an unused M.2 SSD to USB 3.2 enclosure laying around, so I decided to use 
 I plugged the enclosure into the desktop and ran `lsblk` in the shell to get a list of drives connected to the desktop. After identifying the new drive, I saw it had a 4 existing partitions. I used gdisk to remove those by running `gdisk /dev/sda`, then using `d` to delete the partitions and `w` to write the changes. I now have an unpartitioned drive, and I ran `pvcreate /dev/sda` to initialize it as a physical volume.
 
 It is worth mentioning that I am far from fluent in Linux. At this point, I was stuck because I couldn't figure out what else I needed to run, and Proxmox was not able to create an LVM on the new drive yet. I decided to take a step back and run `cfdisk /dev/sda` to clear the drive, then `mkfs.ext4 /dev/sda1` to create the filesystem. Now I could use `mkdir /mnt/SSD01` to create a folder, then `mount /dev/sda1 /mnt/SSD01` to mount the drive to said folder. At this point, I was able to create a new Directory using that SSD01 folder successfully.
+
+### **Adding a Backup Schedule**
+I figure it's good practice to create a backup schedule, even if I might not be storing important or persistent data on my VMs right now. This was simple: navigating to the Backup section of the "datacenter", and hitting Add. I set the rule to backup all VMs every week at Sunday 23:00, store it on the local drive, and only keep the previous 1 backup. This should be sufficient for now.
+
+<img width="1078" height="163" alt="image" src="https://github.com/user-attachments/assets/c851470b-b4ed-4238-9ee6-283ca10c7eb6" />
+
+### **Uploading and Spinning Up VMs**
+I am going to run two VMs: one Windows Server 2025 VM to use as a Domain Controller (foundation for identity/hybrid labs), and one Windows 11 25H2 VM to use with endpoint management testing. I grabbed the ISOs from Microsoft and was able to upload them to Proxmox easily. Since Windows 11 requires TPM, I also needed to grab the [VirtIO Drivers](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers) ISO.
+
+I first started with the Windows 11 VM. I'm running this one on my local drive and gave it 100GB of storage, 4 cores, and 4GB RAM to work with. After creating it, I added the VirtIO drive using the Add > CD/DVD button on the VM page. I then did the exact same thing for the Windows Server 2025 VM, but I gave this one 150GB of storage. I spun both of these VMs up and installed the respective OSes without any problems.
+
+<img width="1312" height="825" alt="image" src="https://github.com/user-attachments/assets/ae00c62b-fe4b-4d00-8bd8-da803d1f6ad5" />
+
+<img width="1277" height="678" alt="image" src="https://github.com/user-attachments/assets/2188af09-d1b9-4776-91a2-fc492c113ae6" />

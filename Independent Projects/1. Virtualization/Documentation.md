@@ -3,7 +3,7 @@
 ## **Introduction**
 I had an extra desktop laying around and wanted to use it for something productive. It's an MFF desktop with an Intel i5-13600T, 16GB RAM, and 512GB local storage. It isn't a lot, but I can always upgrade later on if needed. I did some research on projects to do that complement the skills I am trying to develop, and a local hypervisor / virtualization host was at the top. This allows me to create a solid foundation for future projects since I'll be able to quickly spin up VMs for whatever I need. This file is documentation of everything I've done to set up and use Proxmox VE on my spare desktop.
 
-## **Setting up Proxmox VE**
+## **Setting up Proxmox VE and VMs**
 
 ### **Installation**
 I used BalenaEtcher to flash the Proxmox VE 9.0 ISO to my USB flashdrive, then I booted to the flashdrive from my desktop. Since I only have the one local drive, I installed Proxmox to it with ext4 filesystem. If this were a much larger computer with several more drives, I would consider using RAID 1 instead for redundancy purposes.

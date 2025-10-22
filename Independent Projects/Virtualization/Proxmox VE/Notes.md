@@ -20,3 +20,7 @@ To introduce myself to Proxmox VE Helper Scripts and make sure my Proxmox is up 
 I also ran the [File Browser](https://community-scripts.github.io/ProxmoxVE/scripts?id=filebrowser&category=Files+%26+Downloads) addon installer to make navigating through my file directories easier.
 
 <img width="724" height="400" alt="image" src="https://github.com/user-attachments/assets/d69bbcc3-2168-478c-9081-528e91325d95" />
+
+...and then ran the [FileBrowser Quantum](https://community-scripts.github.io/ProxmoxVE/scripts?id=filebrowser-quantum&category=Files+%26+Downloads) addon installer instead.
+
+<img width="724" height="400" alt="image" src="https://github.com/user-attachments/assets/21adbff7-7dd5-4cf7-9d1b-9c96099180d2" />

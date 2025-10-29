@@ -14,3 +14,6 @@ I can now start the VM!
 
 <img width="1087" height="700" alt="image" src="https://github.com/user-attachments/assets/22aaead4-3283-4b82-9353-5338cf260531" />
 
+<img width="821" height="700" alt="image" src="https://github.com/user-attachments/assets/b86856c5-552c-461f-919f-0622322e120b" />
+
+<img width="1335" height="700" alt="image" src="https://github.com/user-attachments/assets/3f358b6e-f293-4443-bde2-4ac499799786" />

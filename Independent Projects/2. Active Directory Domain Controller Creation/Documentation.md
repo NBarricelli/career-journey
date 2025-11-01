@@ -1,4 +1,4 @@
-# **DC Configuration**
+# **DC Creation**
 
 ## **Introduction**
 Following the completion of Independent Project 1, I now have two VMs: one running Windows Server 2025, and one running Windows 11. My current interests and career goals are related to endpoint engineering and system administration. With these VMs, I will be promoting my Windows Server VM (henceforth named vm-WinSer2025) to a domain controller, then joining my Windows 11 (henceforth named vm-Win11) to it.
